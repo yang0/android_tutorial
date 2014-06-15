@@ -18,8 +18,8 @@ public class DisplayMessageActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
-		//回退按钮，貌似该语句无效
-		//setSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		//回退按钮
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		/*
 		setContentView(R.layout.activity_display_message);
 
